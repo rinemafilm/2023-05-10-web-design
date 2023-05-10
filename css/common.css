@@ -126,7 +126,6 @@ body {
     cursor: pointer;
 }
 
-
 .tap_title h2{
     width: 100%;
     height: 50px;
@@ -135,6 +134,7 @@ body {
     background-color: #ddd;
     font-size: 14px;
     font-weight: normal;
+    cursor: pointer;
 }
 
 .tap_title h2.on {
@@ -172,7 +172,7 @@ body {
 }
 
 .tap_contents ul.gallery {
-    display: flex;
+    display: none;
     gap: 10px;
     height: 130px;
 }
@@ -184,7 +184,7 @@ body {
     margin-right: 2%;
 }
 
-.gallery li:last-child{
+.tap_contents ul.gallery li:last-child{
     margin: 0;
 }
 

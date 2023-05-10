@@ -19,7 +19,6 @@ $(function(){
 
 
         //탭
-        console.log($('tap_title h2'))
         $('.tap_title h2').click(function(){
             $('.tap_title h2').removeClass('on')
             $(this).addClass('on')
